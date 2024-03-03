@@ -1,10 +1,21 @@
 # Document Scanner using OpenCV
 
-This project implements a document scanner using OpenCV library in Python. 
+
+
+## Overview
+This Python script provides functionality for scanning documents from an image file. It detects the document edges, applies perspective transformation to obtain a top-down view, and displays the scanned document.
+
 
 ## Features
+- **Document Edge Detection**: Utilizes edge detection techniques to identify document boundaries.
+- **Perspective Transformation**: Applies perspective transformation to correct for perspective distortion and obtain a top-down view of the document.
+- **GUI Interface**: Includes a simple GUI interface built using Tkinter for selecting an image file and displaying the scanned document.
+- **Flexibility**: The script is flexible and can handle various document sizes and orientations.
 
-- Scan documents and save them in digital formats.
-- Perspective transformation to correct the angle and tilt of the document.
-- Automatic edge detection to identify the boundaries of the document.
-- GUI interface for ease of use.
+## Requirements
+- Python 3.x
+- OpenCV (cv2)
+- NumPy
+- imutils
+- scikit-image
+
